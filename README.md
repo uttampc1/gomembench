@@ -1,6 +1,3 @@
-Here is the updated README with the `payload_throughput` metric included:
-
----
 
 # Go Memory Benchmark (gomembench)
 
