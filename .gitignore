@@ -1,0 +1,7 @@
+go.mod
+bench
+x
+r
+scale.sh
+*.out
+*.log
