@@ -190,10 +190,6 @@ func StreamBenchSequential(totalBytes, n, trials int, fixedPasses int, width Acc
 			fmt.Fprintf(os.Stderr,
 				"-------------------------------------------------------------------------------------------------------------------------\n")
 		}
-
-	  if t < trials {
-		  runtime.GC()
-		}
 	}
 }
 
@@ -363,10 +359,6 @@ func StreamBenchRandom(totalBytes, n, trials int, fixedPasses int, width AccessW
 					rThroughput,
 				)
 			}
-		}
-
-	  if t < trials {
-		  runtime.GC()
 		}
   }
 }
