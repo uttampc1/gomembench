@@ -207,7 +207,7 @@ trial,routine_id,routine_start_ms,measure_start_ms,measure_end_ms,routine_end_ms
 ./bench -bench stream-sequential -total-gb 1 -n 4 -trials 1 -passes 1
 ```
 
-## Typical Results (AMD EPYC 9654, 2-socket, 96 cores/socket, SMT off)
+## Typical Results (AMD EPYC, 2-socket, 96 cores/socket, SMT off)
 
 ### Sequential Throughput
 
